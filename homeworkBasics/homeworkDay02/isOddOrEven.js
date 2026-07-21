@@ -10,10 +10,10 @@ isOddOrEven(number)
 
 //console.log(number)
 function isOddOrEven(){
-    if  (number == 0 )
-    console.log("Zero entered. Zero is neither even nor odd")
-else if (number%2==0)
-console.log(number,": is an even number")
+    if  (number%2==0)
+    console.log(number,": is an even number")
+//else if (number == 0 )
+//console.log("Zero entered. Zero is neither even nor odd")
 else if (number%2!=0 && number/1==number)
 console.log(number," : is an odd number")
 else
