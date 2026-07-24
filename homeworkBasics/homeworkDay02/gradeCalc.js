@@ -32,7 +32,7 @@ return grade
 //let score = 40;
 //let grade = gradeCalc(score);
 //console.log(`score is:`,score, ` and grade is:`,grade)
-for(score = 40; score<=100; score++){
+for(score = 40; score<=100; score+=5){
     let grade = gradeCalc(score);
 console.log(`score is:`,score, ` and grade is:`,grade)
 }
