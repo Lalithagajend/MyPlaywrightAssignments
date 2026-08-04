@@ -9,4 +9,14 @@ let strS = " fly me to the moon "
 //Trim the string
 let trimStrS = strS.trim()
 console.log(trimStrS)
-//
+//2. Split the String into Words
+const strArrayS = strS.trim().split(" ")
+//using arrays : let strArrayS = strS.trim(" ");
+console.log(trimStrS)
+console.log(strArrayS)
+//3. Identify the Last Word
+const lastWord = strArrayS.pop().trim()
+console.log(lastWord); console.log(typeof lastWord);  
+//4. Calculate the Length of the Last Word
+//5. Return the length
+console.log(lastWord.length)
