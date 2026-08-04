@@ -1,0 +1,14 @@
+// Given a string s consisting of words and spaces, return the length of the last word in the string.
+// Example 1:
+//Input: s = "Hello World"
+// Approach : Split the string into an array of words.
+let strS = "Hello World"
+//Split the string of words to an array using split and spaces
+let strArrayS = strS.split(" ");
+//Printing array
+console.log(strArrayS)
+//Checking the last word
+let strLast = strArrayS.at(-1)
+console.log(`The last word is: `, strLast)
+//length of last word
+console.log(`The length of the last word  is: `, strLast.length);

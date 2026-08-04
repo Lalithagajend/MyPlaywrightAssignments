@@ -1,0 +1,12 @@
+//Example 2:
+//Input: s = " fly me to the moon "
+//1. Trim the String
+//2. Split the String into Words
+//3. Identify the Last Word
+//4. Calculate the Length of the Last Word
+//5. Return the length
+let strS = " fly me to the moon "
+//Trim the string
+let trimStrS = strS.trim()
+console.log(trimStrS)
+//
